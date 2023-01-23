@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../spi.srcs/sources_1/new/ADS.vhd" \
+"../../../../spi.srcs/sources_1/new/ADS_SPI.vhd" \
+"../../../../spi.srcs/sources_1/new/faspi.vhd" \
+"../../../../spi.srcs/sim_1/new/spiadsxsim.vhd" \
+
+# Do not sort compile order
+nosort
